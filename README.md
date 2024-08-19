@@ -46,7 +46,7 @@ After:
 
 **Steps I took for removing duplicated data:**
 
-- I selected the Product id and Customer Id columns from both worksheets, then applied conditional formatting (Highlight cell rules/Duplicate values/).
+- I selected the Product id and Customer Id columns from both worksheets, then applied conditional formatting (Highlight cell rules/Duplicate values).
 - Then I selected all columns at once, and removed the duplicates (Data tab/Remove duplicates/selected My Data has headers)
 
 Before:
@@ -55,4 +55,13 @@ Before:
 After:
 ![alt text](<Images/Removing duplicates from Customers file-outcome.png>)
 
-mnmnmhjh
+**Removing Unnecessary columns from the Customers dataset:**
+
+I took a look at all the comuns in the Customers worksheet and found there were 2 columns (Customer Fname and Customer Lname). I decided to merge these 2 columns into 1 using the flash fill feature in Excel.
+
+I typed the first 3 names manually and correctly in the new column: Full Name, making sure I pressed enter after manually typing each name of the customer. Then I used the flash fill feature in the Data tab to automatically input the corresponding names of the rst of teh customers because it will be a lot of work to do it myself.
+
+After:
+![alt text](<Images/Used flash fill to remove unnecessary columns in Customers file.png>)
+
+vbnvbvbv
