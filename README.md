@@ -4,7 +4,18 @@ A data cleaning and data preparation project assigned to me by my Tutor on DataC
 
 ## Project Info
 
+The purpose of this project is to showcase how to prepare and clean raw data in Excel worksheets using data provided by a Car Dealership business based in India.
+
+The initial files contain information on different cars sold by the dealership, inclduing the make of the car, model, fuel type, price sold, order details and customer information.
+
 ## Datasets (Before) and (After) Cleaning
+
+**Steps I took for cleaning the 3 initial datasets:**
+
+- Imported each raw data into Excel, including txt and csv files.
+- Imported initial files into one worksheet for easier access.
+- Removed initial formatting such as table design and converted to normal cell ranges.
+- Added filters, formatted headings, and text alignments to all files.
 
 **Working with RAW DATA(B):**
 
@@ -23,4 +34,25 @@ Once all the initial 3 files I was given to clean are in one worksheet, I decide
 
 ![alt text](<Images/Product workbook after formatting.png>)
 
-## fdghfhdg
+## Removing Duplicates from Data (Before / After):
+
+Before doing anything else, I identified the 2 files I will be using for lookup sheets and decided to further clean them up by removing any duplicated data to avoid consusion and inaccuracies later on.
+
+Before:
+![alt text](<Images/Removing duplicates from Products file.png>)
+
+After:
+![alt text](<Images/Removing duplicates from Products file-outcome.png>)
+
+**Steps I took for removing duplicated data:**
+
+- I selected the Product id and Customer Id columns from both worksheets, then applied conditional formatting (Highlight cell rules/Duplicate values/).
+- Then I selected all columns at once, and removed the duplicates (Data tab/Remove duplicates/selected My Data has headers)
+
+Before:
+![alt text](<Images/Removing duplicates from Customers file.png>)
+
+After:
+![alt text](<Images/Removing duplicates from Customers file-outcome.png>)
+
+mnmnmhjh
