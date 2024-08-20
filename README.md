@@ -59,16 +59,20 @@ After:
 
 I took a look at all the comuns in the Customers worksheet and found there were 2 columns (Customer Fname and Customer Lname). I decided to merge these 2 columns into 1 using the flash fill feature in Excel.
 
-I typed the first 3 names manually and correctly in the new column: Full Name, making sure I pressed enter after manually typing each name of the customer. Then I used the flash fill feature in the Data tab to automatically input the corresponding names of the rest of the customers because it will be too time consuming to do it all myself since there are over 1000 rows of data in the worksheet.
+I typed the first 3 names manually and correctly in the new column: Full Name, making sure I pressed enter after manually typing each name of the customer. Then I used the **flash fill feature** in the Data tab to automatically input the corresponding names of the rest of the customers because it will be too time consuming to do it all myself since there are over 1000 rows of data in the worksheet.
 
 After:
 ![alt text](<Images/Used flash fill to remove unnecessary columns in Customers file.png>)
 
-**Removing Unnecessary columns from the Customers dataset:**
+**Populating values into new Dates worksheet without having the data:**
+
+Created a new Dates lookup worksheet. From the Order date column in the Orders worksheet, I know orders were placed from 2015 to 2018. So I started with the first date of 2015 (01/01/2025) and used the **flash series feature** to populate for the rest of each day till the last day of 2018 (31/12/2018). These dates serve has dates orders were placed with DataCo.
 
 Before:
 ![alt text](<Images/Using fill series feature for dates worksheet.png>)
 After:
 ![alt text](<Images/Using fill series feature for dates worksheet-outcome.png>)
+
+**Removing Unnecessary columns from the Customers dataset:**
 
 vbnvbvbv
