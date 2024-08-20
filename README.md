@@ -64,4 +64,11 @@ I typed the first 3 names manually and correctly in the new column: Full Name, m
 After:
 ![alt text](<Images/Used flash fill to remove unnecessary columns in Customers file.png>)
 
+**Removing Unnecessary columns from the Customers dataset:**
+
+Before:
+![alt text](<Images/Using fill series feature for dates worksheet.png>)
+After:
+![alt text](<Images/Using fill series feature for dates worksheet-outcome.png>)
+
 vbnvbvbv
