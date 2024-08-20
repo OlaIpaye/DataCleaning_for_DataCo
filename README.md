@@ -59,7 +59,7 @@ After:
 
 I took a look at all the comuns in the Customers worksheet and found there were 2 columns (Customer Fname and Customer Lname). I decided to merge these 2 columns into 1 using the flash fill feature in Excel.
 
-I typed the first 3 names manually and correctly in the new column: Full Name, making sure I pressed enter after manually typing each name of the customer. Then I used the flash fill feature in the Data tab to automatically input the corresponding names of the rst of teh customers because it will be a lot of work to do it myself.
+I typed the first 3 names manually and correctly in the new column: Full Name, making sure I pressed enter after manually typing each name of the customer. Then I used the flash fill feature in the Data tab to automatically input the corresponding names of the rest of the customers because it will be too time consuming to do it all myself since there are over 1000 rows of data in the worksheet.
 
 After:
 ![alt text](<Images/Used flash fill to remove unnecessary columns in Customers file.png>)
