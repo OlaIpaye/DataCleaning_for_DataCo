@@ -119,4 +119,14 @@ Also, I added the date the worksheet was last edited, using the Today() fucntion
 After:
 ![alt text](<Images/DataCo delivery weekday specified in Dates worksheet.png>)
 
-bnbnb
+**Specifying customer order delivery date using date functions:**
+
+Since the Order date and Date for shipment date values were provided for me. I decided to add an extra column to provide information for the DataCo team so they can keep track of the date orders will get to their customers.
+
+I used the Workday() function in combination with the two affordmentioned columns to get the values for the new Scheduled Delivery date column.
+
+Before:
+![using date functions in excel](<Images/Scheduled delivery date for Orders.png>)
+
+After:
+![using date functions in excel](<Images/Scheduled delivery date for Orders-outcome.png>)
