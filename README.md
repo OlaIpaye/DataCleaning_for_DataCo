@@ -96,4 +96,18 @@ In the Customer Country column in the Customers worksheet, the values: EE.UU. is
 After:
 ![Replaced column values in excel](<Images/Replaced values in the Customer Country column.png>)
 
-bnbn
+**Joining values and Removing unneeded columns in the DataCo dataset:**
+
+In the DataCo dataset, I saw that the Customers address were seperated into 3 columns. I didn't think it made sense since the Customer City, Customer Street and Zip code columns were not important for analysis later on. So I decided to join the values into one column called Customer Address using the cancat fucntion.
+
+After:
+![using cancat function in excel](<Images/using cancat function to join values from multiple columns.png>)
+
+**Protecting cleaned Customers worksheet:**
+
+After cleaning the Customers worksheet and I was satisfied with the outcome I decided to password protect it to avoid losing any data.
+
+After:
+![protecting worksheet in excel](<Images/Customers worksheet cleaned, protected and ready for analysis.png>)
+
+bnbnbv
