@@ -110,4 +110,13 @@ After cleaning the Customers worksheet and I was satisfied with the outcome I de
 After:
 ![protecting worksheet in excel](<Images/Customers worksheet cleaned, protected and ready for analysis.png>)
 
-bnbnbv
+**Specifying customer delivery day of the week using date functions:**
+
+Since DataCo delivers all accross the US and Puerto Rico, and working with different time zones. I wanted to spicity the value for the day of the week for each date in the Dates worksheet using the Weekday() fucntion, with 1 = Sunday and 7 = Saturday.
+
+Also, I added the date the worksheet was last edited, using the Today() fucntion.
+
+After:
+![alt text](<Images/DataCo delivery weekday specified in Dates worksheet.png>)
+
+bnbnb
