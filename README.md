@@ -85,8 +85,15 @@ Before:
 ![text fucntions in excel](<Images/Checking text length for values greater than 2.png>)
 
 After:
-![alt text](<Images/Checking text length for values greater than 2-OUTCOME1.png>)
+![using len function in excel](<Images/Checking text length for values greater than 2-OUTCOME1.png>)
 
-![alt text](<Images/Checking text length for values greater than 2-OUTCOME.png>)
+![text fucntions in excel](<Images/Checking text length for values greater than 2-OUTCOME.png>)
 
-ghfgh
+**Replacing unclear values in the DataCo dataset:**
+
+In the Customer Country column in the Customers worksheet, the values: EE.UU. is unclear and doesn't say what country the customers are from so I replaced it with USA, because the cities belong in the United States. This is clearer and easier for all to understand.
+
+After:
+![Replaced column values in excel](<Images/Replaced values in the Customer Country column.png>)
+
+bnbn
