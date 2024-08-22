@@ -4,7 +4,7 @@ A data cleaning and data preparation project assigned to me by my Tutor on DataC
 
 ## Project Info
 
-The purpose of this project is to showcase how to prepare and clean raw data in Excel worksheets using data provided by a Car Dealership business based in India.
+The purpose of this project is to showcase how to prepare and clean raw data in Excel using data provided by a Consumer product business based in India.
 
 The initial files contain information on different cars sold by the dealership, inclduing the make of the car, model, fuel type, price sold, order details and customer information.
 
@@ -137,3 +137,14 @@ Before:
 
 After:
 ![using date functions in excel](<Images/Scheduled delivery date for Orders-outcome.png>)
+
+**Finding average product price and using logical functions:**
+
+In the Products worksheet, I calculated the average product price from all products sold and then used the NOT() logical function to figure out which product is not greater than or equal to the average price to determine which products are more expensive.
+
+Then I created an absolute reference in the formula so it doesn't change and locks in for formula for all columns.
+
+After:
+![using logical functions in excel](<Images/using logical functions in excel.png>)
+
+bnbgnb
