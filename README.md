@@ -4,7 +4,7 @@ A data cleaning and data preparation project assigned to me by my Tutor on DataC
 
 ## Project Info
 
-The purpose of this project is to showcase how to prepare and clean raw data in Excel using data provided by a Consumer product business based in India.
+The purpose of this project is to showcase how to prepare and clean raw data in Excel using data provided by a Consumer product business based in the USA and serving customers across America.
 
 The initial files contain information on different cars sold by the dealership, inclduing the make of the car, model, fuel type, price sold, order details and customer information.
 
@@ -147,7 +147,7 @@ Then I created an absolute reference in the formula so it doesn't change and loc
 After:
 ![using logical functions in excel](<Images/using logical functions in excel.png>)
 
-**Finding average product price and using logical functions:**
+**Determining which orders were same day delivery using logical functions:**
 
 In the Orders worksheet, I wanted to determine which orders are same-day deliveries without a risk of being late.
 
@@ -158,4 +158,16 @@ After:
 
 ![using if and function in excel](<Images/Checking for orders with same day delivery in Orders worksheet-outcome.png>)
 
-bnbnb
+**Identifying Orders paid for by cash and over 200 using logical functions:**
+
+Out of all the columns in the Orders worksheet, there was not a column for the Total sales per order. So I created the Total Order Sales column.
+
+Then I wanted to find out which orders were paid for in cash, debit and bank transfer. I did this using the if and logical functions.
+
+Before:
+![nested if function in excel](<Images/using nested if to check if cash payment is over 200.png>)
+
+After:
+![using logical functions in excel](<Images/using nested if to check if cash payment is over 200-outcome.png>)
+
+bnbnbv
