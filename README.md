@@ -2,11 +2,11 @@
 
 A data cleaning and data preparation project assigned to me by my Tutor on DataCamp.
 
-## Project Info
+## Project Summary
 
 The purpose of this project is to showcase how to prepare and clean raw data in Excel using data provided by a Consumer product business based in the USA and serving customers across America.
 
-The initial files contain information on different cars sold by the dealership, inclduing the make of the car, model, fuel type, price sold, order details and customer information.
+The initial files contain information on different customer product sales, inclduing the customer names, city, state, customer id, product cost, order details and more.
 
 **Tools used in this project:**
 
