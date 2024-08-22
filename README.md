@@ -170,4 +170,12 @@ Before:
 After:
 ![using logical functions in excel](<Images/using nested if to check if cash payment is over 200-outcome.png>)
 
-bnbnbv
+**Adding comments and notes in the worksheets:**
+
+After cleaning all the worksheets in the workbook, I decided to add some notes and comments regarding the steps I took to aggregate some of the columns in the datasets.
+
+Adding a comment to the Products worksheet:
+![adding a comment in excel](<Images/Adding comments to Products worksheet.png>)
+
+Adding a note to the Orders worksheet:
+![adding a note in excel](<Images/Adding notes to Orders worksheet.png>)
