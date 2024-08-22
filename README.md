@@ -147,4 +147,15 @@ Then I created an absolute reference in the formula so it doesn't change and loc
 After:
 ![using logical functions in excel](<Images/using logical functions in excel.png>)
 
-bnbgnb
+**Finding average product price and using logical functions:**
+
+In the Orders worksheet, I wanted to determine which orders are same-day deliveries without a risk of being late.
+
+I decided to use the if and function together to identify which orders will be delayed based on the Late_delivery_risk column being 0 = no delay, and 1 = delayed in combination with the values in the Shipping mode column. Since there is already "Same Day" in the column, it made my job easier.
+
+After:
+![using if fucntion in excel](<Images/Checking for orders with same day delivery in Orders worksheet.png>)
+
+![using if and function in excel](<Images/Checking for orders with same day delivery in Orders worksheet-outcome.png>)
+
+bnbnb
