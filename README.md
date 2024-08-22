@@ -8,6 +8,13 @@ The purpose of this project is to showcase how to prepare and clean raw data in 
 
 The initial files contain information on different cars sold by the dealership, inclduing the make of the car, model, fuel type, price sold, order details and customer information.
 
+**Tools used in this project:**
+
+- Microsoft Excel, for data cleaning and preparation.
+- Company Datasets, from Datacamp platform.
+- Git, for documenting my process and pushing work to Github.
+- Git Bash command line interface, for cloning the remote repository on my local computer and for creating and accessing folders and images for this project.
+
 ## Datasets (Before) and (After) Cleaning
 
 **Steps I took for cleaning the 3 initial datasets:**
