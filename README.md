@@ -179,3 +179,20 @@ Adding a comment to the Products worksheet:
 
 Adding a note to the Orders worksheet:
 ![adding a note in excel](<Images/Adding notes to Orders worksheet.png>)
+
+**Adding comments and notes in the worksheets:**
+
+When I was done cleaning the data, I decided to carry out some more analysis into the products sold by DataCo. I used the vlookup function to bring in some product information into the Orders worksheet, from the Products worksheet.
+
+Since the Product Category Id and Product Id columns were already in the Orders worksheet, for better analysis and visualisation, I needed them to correspond what products and category they were referencing in the Orders worksheet.
+
+After:
+![Using vlookup function for consumer product business](<Images/Using vlookup function1.png>)
+
+![Using vlookup function for consumer product business](<Images/Using vlookup function2.png>)
+
+![Using vlookup function for consumer product business](<Images/Using vlookup function2-Paste as values to remove functions.png>)
+
+![Using vlookup function for consumer product business](<Images/Using vlookup function3-deleted 2 columns.png>)
+
+nmn
