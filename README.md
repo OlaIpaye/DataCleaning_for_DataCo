@@ -212,11 +212,24 @@ I wanted to determine which day of the week brought in the most sales for DataCo
 
 I initially used a vlookup to reference and bring in the Day of Week column from the Dates worksheet in order to figure out which day of the week customers placed thier orders.
 
-Then using the updated Orders dataset, I created a pivot table in F3 to summarise the data to find out which day of week brought in more sales orders and which product category was responsible for the highest sales.
+**Then using the updated Orders dataset, I created a pivot table in F3 to summarise the data to find out which day of week brought in more sales orders and which product category was responsible for the highest sales. It was Saturday and the product category that brought in the most sales is Sporting Goods.**
 
 After:
 ![using vlookup function](<Images/Populated day of week column using vlookup function.png>)
 
 ![using pivot table in excel](<Images/Created Pivot table to determine day of week with most sales.png>)
 
-nmnmn
+**Using Pivot tables to summarise data - grand total percentages of cash payments from all orders:**
+
+I wanted to determine what the percentage of cash and non-cash payments were from all orders to figure out the grand total percentages.
+
+The table shows:
+
+- 10% of orders recived by DataCo were over £200 and paid for with cash.
+
+* 16% of orders recived by DataCo were under £200 and paid for with cash.
+
+* 73% of orders recived by DataCo were made with debit/bank transfer.
+
+After:
+![how to create pivot tables in excel](<Images/Created Pivot table to determine the distribution of cash payments from Orders.png>)
