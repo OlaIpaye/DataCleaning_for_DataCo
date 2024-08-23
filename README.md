@@ -195,7 +195,7 @@ After:
 
 ![Using vlookup function for consumer product business](<Images/Using vlookup function3-deleted 2 columns.png>)
 
-**Using Pivot tables to summarise data:**
+**Using Pivot tables to summarise data - average order quantity:**
 
 I wanted to analyse and summarise all the Orders sold by DataCo to determine which Market is performing the best and worst in terms of order volume and average quantity per order.
 
@@ -204,6 +204,19 @@ I used pivot tables to quickly summarise the dataset of all Orders from DataCo t
 **I found out that LATAM (3.81) and USCA (3.35) market are both currently performaing the best in terms of having the highest average quanitity per order, while Pacific Asia had the lowest average quantity per order (1.72). And while Africa had the highest number of orders, the average order quantity is moderate.**
 
 After:
-![Using pivot tables in excel](<Images/Using pivot tables in excel.png>)
+![creating pivot table in excel](<Images/Using pivot tables in excel.png>)
 
-bnbn
+**Using Pivot tables to summarise data - day of week with most sales:**
+
+I wanted to determine which day of the week brought in the most sales for DataCo.
+
+I initially used a vlookup to reference and bring in the Day of Week column from the Dates worksheet in order to figure out which day of the week customers placed thier orders.
+
+Then using the updated Orders dataset, I created a pivot table in F3 to summarise the data to find out which day of week brought in more sales orders and which product category was responsible for the highest sales.
+
+After:
+![using vlookup function](<Images/Populated day of week column using vlookup function.png>)
+
+![using pivot table in excel](<Images/Created Pivot table to determine day of week with most sales.png>)
+
+nmnmn
