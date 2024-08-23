@@ -180,7 +180,7 @@ Adding a comment to the Products worksheet:
 Adding a note to the Orders worksheet:
 ![adding a note in excel](<Images/Adding notes to Orders worksheet.png>)
 
-**Adding comments and notes in the worksheets:**
+**Referencing data from seperate worksheets using vlookup:**
 
 When I was done cleaning the data, I decided to carry out some more analysis into the products sold by DataCo. I used the vlookup function to bring in some product information into the Orders worksheet, from the Products worksheet.
 
@@ -195,4 +195,15 @@ After:
 
 ![Using vlookup function for consumer product business](<Images/Using vlookup function3-deleted 2 columns.png>)
 
-nmn
+**Using Pivot tables to summarise data:**
+
+I wanted to analyse and summarise all the Orders sold by DataCo to determine which Market is performing the best and worst in terms of order volume and average quantity per order.
+
+I used pivot tables to quickly summarise the dataset of all Orders from DataCo to analyse how well the business is performing across thier market regions.
+
+**I found out that LATAM (3.81) and USCA (3.35) market are both currently performaing the best in terms of having the highest average quanitity per order, while Pacific Asia had the lowest average quantity per order (1.72). And while Africa had the highest number of orders, the average order quantity is moderate.**
+
+After:
+![Using pivot tables in excel](<Images/Using pivot tables in excel.png>)
+
+bnbn
